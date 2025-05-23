@@ -56,33 +56,34 @@ To write a C Program to print 'WELCOME' using malloc() and free().
 ```
 ## PROGRAM
 ```
+
 #include <stdio.h>
 #include <stdlib.h>
 
 int main() {
     char *str;
 
-    str = (char *)malloc(100 * sizeof(char));
-    scanf("%s", str);
-
-    printf("%s\n", str);
-
-    free(str);
+    str = (char *)malloc(100 * sizeof(char)); 
+    scanf("%s", str);                          
+    printf("%s\n", str);                       
+    free(str);                                 
 
     return 0;
 }
 
+
 ```
 
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/f5aa3418-30b6-4c0c-875a-1402bfca2ad4)
 
+![Screenshot 2025-05-23 142337](https://github.com/user-attachments/assets/3528dd97-dd24-4dd0-a1e6-860422ad370c)
 
+![Screenshot 2025-05-23 142345](https://github.com/user-attachments/assets/ea844d5b-351f-4f25-a6e0-369921a59407)
 
 ## RESULT
 Thus the program to print 'WELCOME' using malloc() and free() has been executed successfully
  
-.
+
 
 
 

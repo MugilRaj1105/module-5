@@ -14,23 +14,30 @@ To write a C Program to find area of rectangle using pointer.
 ## PROGRAM
 ```
 
-#include<stdio.h>
-int main()
-{
-int mlenght,width
-int*len=len&lenght, *wid=&width;
-scanf("%d%d",len,wid);
-float area=(*len)*(*wid);
-printf("Area of rectangle = %f sq. units ", area);
-return 0;
+#include <stdio.h>
+
+int main() {
+    float length, width, area;
+    float *pLength = &length, *pWidth = &width;
+
+    printf("Enter length of rectangle: ");
+    scanf("%f", pLength);
+
+    printf("Enter width of rectangle: ");
+    scanf("%f", pWidth);
+
+    area = (*pLength) * (*pWidth);
+
+    printf("Area of rectangle = %.2f\n", area);
+    return 0;
 }
+
 
 ```
 
 ## OUTPUT
 		       	
-![image](https://github.com/user-attachments/assets/03e61d42-3f21-4411-8e47-73c0d515a0b8)
-
+![Screenshot 2025-06-02 131045](https://github.com/user-attachments/assets/c5a1d1f7-65fb-43f8-993d-de2d8320bb1a)
 
 ## RESULT
 Thus the program to find area of rectangle using pointer has been executed successfully

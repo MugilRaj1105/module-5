@@ -37,7 +37,8 @@ int main() {
 
 ## OUTPUT
 		       	
-![Screenshot 2025-06-02 131045](https://github.com/user-attachments/assets/c5a1d1f7-65fb-43f8-993d-de2d8320bb1a)
+![Screenshot 2025-06-02 131601](https://github.com/user-attachments/assets/dd44e668-80bd-431c-b243-049131e0dbbb)
+
 
 ## RESULT
 Thus the program to find area of rectangle using pointer has been executed successfully
